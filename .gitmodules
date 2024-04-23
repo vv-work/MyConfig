@@ -1,0 +1,3 @@
+[submodule "MyNvChadConfig"]
+	path = MyNvChadConfig
+	url = git@github.com:vv-work/MyNvChadConfig.git
