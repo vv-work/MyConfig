@@ -2,7 +2,7 @@
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim/
 # install nvim
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 &&nvim
-
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim 
+#
+# git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
