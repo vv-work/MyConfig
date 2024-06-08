@@ -4,10 +4,15 @@ Collection of my configurations. Through out of years I get use to specific sett
 
 it will include multiple configurations that I like to use that are really works good for me
 
+## NeoVim
+
+### pre-packages
+
+
+
 ## Font
 
 JetBrains Nerd family is perect
-
 
 🎉 Ligatures 
 
@@ -27,7 +32,6 @@ JetBrains Nerd family is perect
 
 
 ### tmux
-
 
 - [TMP GitHub](https://github.com/tmux-plugins/tpm)
 - [Catppuccin](https://github.com/catppuccin/tmux)
