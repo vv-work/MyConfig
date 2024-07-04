@@ -21,7 +21,8 @@ function get_mute {
 
 # Uses regex to get brightness from xbacklight
 function get_brightness {
-    xbacklight | grep -Po '[0-9]{1,3}' | head -n 1
+    # xbacklight | grep -Po '[0-9]{1,3}' | head -n 1
+    brightnessctl g | awk -v max=$(brightnessctl m) '{print int(($1/max)*100)}'
 }
 
 # Returns a mute icon, a volume-low icon, or a volume-high icon, depending on the volume
@@ -84,13 +85,15 @@ case $1 in
 
     brightness_up)
     # Increases brightness and displays the notification
-    xbacklight -inc $brightness_step -time 0 
+    #xbacklight -inc $brightness_step -time 0 
+    brightnessctl set +$brightness_step%
     show_brightness_notif
     ;;
 
     brightness_down)
     # Decreases brightness and displays the notification
-    xbacklight -dec $brightness_step -time 0
+    #xbacklight -dec $brightness_step -time 0
+    brightnessctl set $brightness_step%-
     show_brightness_notif
     ;;
 esac

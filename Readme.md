@@ -9,7 +9,6 @@ it will include multiple configurations that I like to use that are really works
 ### pre-packages
 
 
-
 ## Font
 
 JetBrains Nerd family is perect
@@ -38,12 +37,19 @@ JetBrains Nerd family is perect
 
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
+
+
 ## git
 
  git config --g global init.defaultBranch main
 
 
 ## Keyboard
+
+> Switch keys temporary
+
+`setxkbmap -option caps:swapescape` 
+
 
 ```bash
 xev # Get what keys are inputed
