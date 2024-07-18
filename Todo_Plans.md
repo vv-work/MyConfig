@@ -1,4 +1,3 @@
-
 ## OS Setup tasks:
 
 I need to acive of level of high focus. 
@@ -36,3 +35,12 @@ Terminal  & OS:
 - [ ] Fix i3
 - [ ] Fix i3
 - [ ] Optimik up image with configurations
+
+# OBS Setup
+
+- [ ] A Android Virtual Camera
+
+- [ ] A Switching between diffrent scenes.
+- [ ] Autobackup video Log
+- [ ] Drawing during the streams
+- [ ] Facetracking 
