@@ -1,7 +1,57 @@
+# Todo & Plans
+
+## Top wanted features
+
+| Feature           | Votes             |
+| ----------------- | ----------------- |
+| A Encryption      | +++ |
+| A AutoSetup       | +++++ |
+| WebCam working    | + |
+| FzF TMUX Prime    | +++ |
+
+## Ideas of features
+
+- B TouchPad enable/disable button
+- Chromium or Edge to run web apps like Apps.
+
+## AutoSetup
+
+- [ ] Core
+    - [ ] Nerd Fonts
+    - [ ] Kitty
+    - [ ] FlameShot
+
+- [ ] Terminal
+    - [ ] zbsh
+    - [ ] TMUX
+    - [ ] Neovim 
+    - [ ] RetroTerm
+
+- [ ] Dev 
+    - [ ] gh, Git, Copilot
+    - [ ] Rust
+    - [ ] Python
+        - iPython, Jupyter
+    - [ ] Node
+    - [ ] Lua
+
+- [ ] OBS
+
+- [ ] Tools
+    - [ ] yay
+    - [ ] Fzf, RipGrep, 
+    - [ ] Edge, Chromium, VLC
+    - [ ] ImageMagick, Gimp, FlasmeShot, ffmpeg, yt-dlp, webp
+    
+
+
+## Encryption & Privacy
+
 ## OS Setup tasks:
 
 I need to acive of level of high focus. 
 Like Bill Gates or Cal Newport.
+
 - [ ] Awesome articles
     - [x] Markdown Preview
     - [ ] Generaing and fixing with AI 
@@ -13,7 +63,6 @@ Like Bill Gates or Cal Newport.
     - [ ] Drawing on PDF
 - [ ] Making vidoes & Discord Streams
 Terminal  & OS: 
-
 - [ ] Screen birightnes keys working on I3
 - [ ] Making screenshots in I3
 - [ ] Fish by default and tmux improved 
@@ -27,19 +76,13 @@ Terminal  & OS:
 
 - [ ] Set up Rust Neovim
 - [ ] Fix kitty default Terminal
-- [ ] Fix fi
 - [ ] Fix  N mono and some old style font
-- [ ] Make Ccolors default
-- [ ] Make ietup on new machine
-- [ ] Fix viinal
-- [ ] Fix i3
-- [ ] Fix i3
+- [ ] Make Colors default
 - [ ] Optimik up image with configurations
 
 # OBS Setup
 
 - [ ] A Android Virtual Camera
-
 - [ ] A Switching between diffrent scenes.
 - [ ] Autobackup video Log
 - [ ] Drawing during the streams
