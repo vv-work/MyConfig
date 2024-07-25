@@ -39,12 +39,12 @@
 
 - [ ] Tools
     - [ ] yay
+        - droidcam,
     - [ ] Fzf, RipGrep, 
     - [ ] Edge, Chromium, VLC
     - [ ] ImageMagick, Gimp, FlasmeShot, ffmpeg, yt-dlp, webp
+    - [ ] andoid-tools, linux-headers, dkms, v4l2loopback-dkms
     
-
-
 ## Encryption & Privacy
 
 ## OS Setup tasks:
