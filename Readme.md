@@ -5,6 +5,8 @@ Collection of my configurations. Through out of years I get use to specific sett
 it will include multiple configurations that I like to use that are really works good for me
 
 ## NeoVim
+*some*
+**BOLD**
 
 ### pre-packages
 

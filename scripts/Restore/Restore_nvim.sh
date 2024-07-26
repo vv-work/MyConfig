@@ -7,4 +7,4 @@ else
     echo "$NVIM_DIR does not exist."
 fi
 
-cp ../config/config/nvim "$NVIM_DIR"
+cp -r ../../config/config/nvim ~/.config/
