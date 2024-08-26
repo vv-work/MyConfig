@@ -607,4 +607,3 @@ bindsym $mod+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show
 
 exec --no-startup-id setxkbmap -option caps:swapescape
 
-

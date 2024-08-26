@@ -2,12 +2,17 @@
 
 ## Top wanted features
 
-| Feature           | Votes             |
-| ----------------- | ----------------- |
-| A Encryption      | +++ |
-| A AutoSetup       | +++++ |
-| WebCam working    | + |
-| FzF TMUX Prime    | +++ |
+| Feature                   | Votes             |
+| ------------------------- | ----------------- |
+| A AutoSetup               | +++++             |
+| A NeoVim/notes configured | +++++             |
+| A 0verhead log            | +++               |
+| A Encryption              | +++               |
+| B I3 Full packed          | +++               |
+| iPad cht.sh input         | +++               |
+| FzF TMUX Prime            | +++               |
+| WebCam working            | +                 |
+
 
 ## Ideas of features
 
@@ -87,3 +92,7 @@ Terminal  & OS:
 - [ ] Autobackup video Log
 - [ ] Drawing during the streams
 - [ ] Facetracking 
+
+## I3 Set-up
+
+
