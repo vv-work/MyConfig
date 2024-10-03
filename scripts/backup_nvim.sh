@@ -29,7 +29,7 @@ if [ -d "$nvim_my_dir" ]; then
 fi
 
 # Copy the nvim directory from system config to myConfig
-rsync -av --delete "$nvim_sys_dir" "$nvim_my_dir"
+rsync -av --delete --exclude '.git' "$nvim_sys_dir" "$nvim_my_dir"
 
 # Remove .git folder if it exists
 git_dir="$nvim_my_dir/.git"
