@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Global Variables
-root_dir="/shared/MyConfig/"
+root_dir="/home/shared/MyConfig/"
 my_config_dir="${root_dir}config/"
 linux_config_dir="$HOME/.config/"
 
