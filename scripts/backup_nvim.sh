@@ -15,17 +15,11 @@ suffix_done=""
 # Start backup message
 echo "$prefix_vim_backup Starting Neovim backup..."
 
-# Remove .git folder if it exists
-git_dir="$nvim_my_dir/.git"
-if [ -d "$git_dir" ]; then
-    rm -rf "$git_dir"
-    echo "$prefix_git .git directory removed."
-fi
 
 # Check if the nvim directory exists in nvim_my_dir and push existing changes
 if [ -d "$nvim_my_dir" ]; then
     # Change to the myConfig directory
-    cd "$root_dir" || exit
+  cd "$root_dir" || exit
     
     # Add and commit existing changes
     git add "$nvim_my_dir"
@@ -36,6 +30,13 @@ fi
 
 # Copy the nvim directory from system config to myConfig
 rsync -av --delete "$nvim_sys_dir" "$nvim_my_dir"
+
+# Remove .git folder if it exists
+git_dir="$nvim_my_dir/.git"
+if [ -d "$git_dir" ]; then
+    rm -rf "$git_dir"
+    echo "$prefix_git .git directory removed."
+fi
 
 # Commit and push after copying
 cd "$root_dir" || exit
