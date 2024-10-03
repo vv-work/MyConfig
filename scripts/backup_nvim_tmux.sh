@@ -6,7 +6,7 @@ my_config_dir="${root_dir}config/"
 linux_config_dir="$HOME/.config/"
 
 nvim_sys_dir="${linux_config_dir}nvim/"
-nvim_my_dir="${my_config_dir}/config/nvim/"
+nvim_my_dir="${my_config_dir}config/nvim/"
 tmux_sys_file="$HOME/.tmux.conf"
 tmux_my_file="${my_config_dir}tmux.conf"
 
