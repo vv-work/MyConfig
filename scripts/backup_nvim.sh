@@ -22,7 +22,7 @@ if [ -d "$nvim_my_dir" ]; then
   cd "$root_dir" || exit
     
     # Add and commit existing changes
-    git add "$nvim_my_dir"
+    git add "."
     git commit -m "$prefix_git $prefix_vim_backup Backup existing Neovim settings"
     git push origin main
     echo "$prefix_git $prefix_vim_backup Backup and push of existing Neovim settings completed."
@@ -40,9 +40,9 @@ fi
 
 # Commit and push after copying
 cd "$root_dir" || exit
-git add "$nvim_my_dir"
+git add "."
 git commit -m "$prefix_git $prefix_vim_backup Backup Neovim settings after update"
-git push origin main
+git push 
 
 # Completion message
 echo "$prefix_git - $suffix_done Neovim backup completed successfully."
