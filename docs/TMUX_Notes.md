@@ -1,5 +1,10 @@
 # TMUX 
 
+## Location 
+
+`~/.tmux.conf` - default location for tmux configuration 
+
+## Installation
 
 ## Intro: It's Complicated...
 
