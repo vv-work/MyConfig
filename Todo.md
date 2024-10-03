@@ -3,15 +3,24 @@
 
 ## Critical 
 
-- [ ] Set-up NeoVim 4 markdown
-- [ ] Back-up Neovim
+- [ ] Back-up Neovim (reusable)
 - [ ] Bash Scripting course & notes
 
+- [x] Set-up NeoVim 4 markdown
 
-## Goal
+## Goals 
+
+- ❗🐸 🧘 Zenfull workflow
+> How ? 
+
+- ❗🐸 🧘 Zenfull notetaking
+> How ? Obsidian, Neovim, Zettelkasten
+
+- [ ] Zen on Arch
+- [ ] Zen on Window
+- [ ] Zen on Hackintosh
 
 Transfer current settings from my current account -> to work. My current problem is not not efficiency  but auto-configure when I start my job. And for some reason I can work when there is timer tickign and somebody is watching. 
-
 Let's say I have some task for Zenful workflow to test. 
 
 ## Zenfull task 
