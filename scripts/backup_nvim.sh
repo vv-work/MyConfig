@@ -2,7 +2,7 @@
 
 # Global variables for the backup_nvim.sh script
 root_dir="../"
-my_config_dir="${root_dir}config/"
+my_config_dir="${root_dir}config/config/"
 linux_config_dir="$HOME/.config/"
 
 nvim_sys_dir="${linux_config_dir}nvim/"
