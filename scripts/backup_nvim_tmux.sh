@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Global Variables
-root_dir="../"
+root_dir="/shared/MyConfig/"
 my_config_dir="${root_dir}config/"
 linux_config_dir="$HOME/.config/"
 
@@ -20,8 +20,8 @@ commit_and_push() {
     local dir="$1"
     local message="$2"
     
-    cd "$root_dir" || exit
-    git add "$dir"
+    cd root_dir
+    git add "."
     git commit -m "$message"
     git push origin main
 }
@@ -53,6 +53,7 @@ backup_tmux() {
     # Check if tmux.conf exists and push existing changes
     if [ -f "$tmux_my_file" ]; then
         commit_and_push "$tmux_my_file" "$prefix_git $prefix_tmux_backup Backup existing TMUX settings"
+        rm -f "$tmux_my_file"
         echo "$prefix_git $prefix_tmux_backup Backup and push of existing TMUX settings completed."
     fi
     
