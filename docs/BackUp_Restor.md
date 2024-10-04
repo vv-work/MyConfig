@@ -3,6 +3,16 @@
 ## Crytical tools settings
 
 - [ ] `~/.bashrc` 
+- [ ] NERD Fonts
+- [ ] Fish
+    - FZF 
+- [ ] TMUX 
+- [ ] NVIM
+    - [ ] Node.js
+    - [ ] Rust
+    - [ ] Python
+    - [ ] Graper
+
 - [ ] **I3**
 - [ ] Kitty
    - [ ] `~/.config/kitty/kitty.conf`
@@ -13,8 +23,6 @@
        - GoHuFont (retro **no** ligatures)
        )
 - [ ] ZSH
-- [ ] TMUX 
-- [ ] NVIM
 - [ ] T Tools
 
 ## Dependencies
