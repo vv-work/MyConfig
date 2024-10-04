@@ -4,14 +4,15 @@ Collection of my configurations. Through out of years I get use to specific sett
 
 it will include multiple configurations that I like to use that are really works good for me
 
+## Goals 
+
+- ❗🐸 🧘 Zenfull workflow
+> How ? 
+
+- ❗🐸 🧘 Zenfull notetaking
+> How ? Obsidian, Neovim, Zettelkasten
+
 ## NeoVim
-;> [!WARNING]
-> 
-*some*
-**BOLD**
-
-### pre-packages
-
 
 ## Font
 
@@ -33,7 +34,6 @@ JetBrains Nerd family is perect
 - Supports **Ligatures** (->,!=,<=)
 - 🐱🌈 Supports **Catpuchin**
 
-
 ### tmux
 
 - [TMP GitHub](https://github.com/tmux-plugins/tpm)
@@ -43,18 +43,3 @@ JetBrains Nerd family is perect
 
 
 
-## git
-
- git config --g global init.defaultBranch main
-
-
-## Keyboard
-
-> Switch keys temporary
-
-`setxkbmap -option caps:swapescape` 
-
-
-```bash
-xev # Get what keys are inputed
-```

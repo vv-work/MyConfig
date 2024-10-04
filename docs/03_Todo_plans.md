@@ -1,5 +1,6 @@
 # Todo & Plans
 
+
 ## Top wanted features
 
 | Feature                   | Votes             |
@@ -13,6 +14,17 @@
 | FzF TMUX Prime            | +++               |
 | WebCam working            | +                 |
 
+## Critical 
+
+- [ ] Bash Scripting course & notes
+- [x] Back-up Neovim (reusable)
+- [x] Set-up NeoVim 4 markdown
+
+- [ ] Zen on Arch
+- [ ] Zen on Window
+
+Transfer current settings from my current account -> to work. My current problem is not not efficiency  but auto-configure when I start my job. And for some reason I can work when there is timer tickign and somebody is watching. 
+Let's say I have some task for Zenful workflow to test. 
 
 ## Ideas of features
 
@@ -94,5 +106,4 @@ Terminal  & OS:
 - [ ] Facetracking 
 
 ## I3 Set-up
-
 

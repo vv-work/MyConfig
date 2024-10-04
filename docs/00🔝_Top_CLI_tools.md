@@ -12,4 +12,3 @@
 
 ## Long Term
 
-- cd
