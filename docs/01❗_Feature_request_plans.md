@@ -5,23 +5,24 @@
 
 | Feature                   | Votes             |
 | ------------------------- | ----------------- |
-| A AutoSetup               | +++++             |
-| A NeoVim/notes configured | +++++             |
+| A nvim config update      |                   |
+| A NVIM <--> Obsidian sync |                   |
+| A AutoSetup               |                   |
+| A Arch Linux/Notes Setup  |                   |
+| iPad cht.sh input         |                   |
+
+### Prev
+
 | A 0verhead log            | +++               |
-| A Encryption              | +++               |
 | B I3 Full packed          | +++               |
-| iPad cht.sh input         | +++               |
-| FzF TMUX Prime            | +++               |
-| WebCam working            | +                 |
+| B FzF TMUX Prime          | +++               |
+| A Encryption              | +++               |
 
 ## Critical 
 
-- [ ] Bash Scripting course & notes
-- [x] Back-up Neovim (reusable)
-- [x] Set-up NeoVim 4 markdown
-
 - [ ] Zen on Arch
 - [ ] Zen on Window
+- [ ] Bash Scripting course & notes
 
 Transfer current settings from my current account -> to work. My current problem is not not efficiency  but auto-configure when I start my job. And for some reason I can work when there is timer tickign and somebody is watching. 
 Let's say I have some task for Zenful workflow to test. 
@@ -30,6 +31,19 @@ Let's say I have some task for Zenful workflow to test.
 
 - B TouchPad enable/disable button
 - Chromium or Edge to run web apps like Apps.
+
+## Windows
+
+## NVIM 
+
+
+| Feature                   | Votes             |
+| ------------------------- | ----------------- |
+| A Autosuggest vs Copilot  | ++++++            |
+| A Relative number(default)| ++                |
+| A IsoCal auto Gen         | +++               |
+| B Lua/NVIM notes          | +++               |
+
 
 ## AutoSetup
 
@@ -51,9 +65,7 @@ Let's say I have some task for Zenful workflow to test.
         - iPython, Jupyter
     - [ ] Node
     - [ ] Lua
-
 - [ ] OBS
-
 - [ ] Tools
     - [ ] yay
         - droidcam,
