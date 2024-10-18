@@ -8,10 +8,10 @@ return {
   },
 
 
-  {
-    "github/copilot.vim",
-    lazy = false,
-  },
+  -- {
+  --   "github/copilot.vim",
+  --   lazy = false,
+  -- },
 
   -- These are some examples, uncomment them if you want to see them work!
   {
