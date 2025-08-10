@@ -7,7 +7,6 @@ return {
     end,
   },
 
-
   {
     "github/copilot.vim",
     lazy = false,
